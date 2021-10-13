@@ -1,0 +1,16 @@
+.idea
+node_modules
+.vscode
+npm-debug.log*
+*.log
+logs
+yarn.lock
+.DS_Store
+ehthumbs.db
+Thumbs.db
+cypress/cucumber-json
+cypress/screenshots/
+cypress/videos
+reports
+cypress/performanceReports
+cucumber-json

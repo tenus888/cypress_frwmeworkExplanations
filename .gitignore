@@ -13,4 +13,4 @@ cypress/screenshots/
 cypress/videos
 reports
 cypress/performanceReports
-cucumber-json
+package-lock.json

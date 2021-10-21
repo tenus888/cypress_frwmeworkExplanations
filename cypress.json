@@ -1,4 +1,11 @@
 {
     "chromeWebSecurity": false,
-    "integrationFolder": "cypress/integration"
+    "defaultCommandTimeout":15000,
+    "integrationFolder": "cypress/integration",
+
+    
+    "videoUploadOnPasses" : true,
+    "screenshotsOnRunFailure":true
+
+
 }

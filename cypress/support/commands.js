@@ -44,13 +44,13 @@ import "cypress-audit/commands"
 Cypress.Commands.add('performanceReport', () => { 
   
   const thresholds = {
-    performance: 80,
+    performance: 30,
     'first-contentful-paint': 50000,
     'largest-contentful-paint': 50000,
     accessibility: 50,
     interactive: 50000,
     seo: 50,  
-    pwa: 50,
+    pwa: 20,
       };
 
   const lighthouseConfig = {
